@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		61341A5B197AD4C80088AC9D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61341A5A197AD4C80088AC9D /* main.cpp */; };
 		61341A5D197AD4C80088AC9D /* ProjCG.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 61341A5C197AD4C80088AC9D /* ProjCG.1 */; };
+		61341A64197AD50E0088AC9D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61341A63197AD50E0088AC9D /* OpenGL.framework */; };
+		61341A66197AD5160088AC9D /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61341A65197AD5160088AC9D /* GLUT.framework */; };
+		61341A69197AE6270088AC9D /* GameController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61341A67197AE6270088AC9D /* GameController.cpp */; };
+		61341A6D197AEB580088AC9D /* Obstacle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61341A6B197AEB580088AC9D /* Obstacle.cpp */; };
+		61341A74197AEBDD0088AC9D /* Coord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61341A72197AEBDD0088AC9D /* Coord.cpp */; };
+		61341A77197B47F90088AC9D /* Movable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61341A75197B47F90088AC9D /* Movable.cpp */; };
+		61341A7A197B48060088AC9D /* Drawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61341A78197B48060088AC9D /* Drawable.cpp */; };
+		61341A7D197B48C70088AC9D /* Frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61341A7B197B48C70088AC9D /* Frame.cpp */; };
+		61341A80197B49110088AC9D /* Size.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61341A7E197B49110088AC9D /* Size.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +37,22 @@
 		61341A57197AD4C80088AC9D /* ProjCG */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjCG; sourceTree = BUILT_PRODUCTS_DIR; };
 		61341A5A197AD4C80088AC9D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		61341A5C197AD4C80088AC9D /* ProjCG.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ProjCG.1; sourceTree = "<group>"; };
+		61341A63197AD50E0088AC9D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		61341A65197AD5160088AC9D /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		61341A67197AE6270088AC9D /* GameController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameController.cpp; sourceTree = "<group>"; };
+		61341A68197AE6270088AC9D /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		61341A6B197AEB580088AC9D /* Obstacle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Obstacle.cpp; sourceTree = "<group>"; };
+		61341A6C197AEB580088AC9D /* Obstacle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Obstacle.h; sourceTree = "<group>"; };
+		61341A72197AEBDD0088AC9D /* Coord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Coord.cpp; sourceTree = "<group>"; };
+		61341A73197AEBDD0088AC9D /* Coord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coord.h; sourceTree = "<group>"; };
+		61341A75197B47F90088AC9D /* Movable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Movable.cpp; sourceTree = "<group>"; };
+		61341A76197B47F90088AC9D /* Movable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movable.h; sourceTree = "<group>"; };
+		61341A78197B48060088AC9D /* Drawable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Drawable.cpp; sourceTree = "<group>"; };
+		61341A79197B48060088AC9D /* Drawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawable.h; sourceTree = "<group>"; };
+		61341A7B197B48C70088AC9D /* Frame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Frame.cpp; sourceTree = "<group>"; };
+		61341A7C197B48C70088AC9D /* Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Frame.h; sourceTree = "<group>"; };
+		61341A7E197B49110088AC9D /* Size.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Size.cpp; sourceTree = "<group>"; };
+		61341A7F197B49110088AC9D /* Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Size.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61341A66197AD5160088AC9D /* GLUT.framework in Frameworks */,
+				61341A64197AD50E0088AC9D /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +71,8 @@
 		61341A4E197AD4C80088AC9D = {
 			isa = PBXGroup;
 			children = (
+				61341A65197AD5160088AC9D /* GLUT.framework */,
+				61341A63197AD50E0088AC9D /* OpenGL.framework */,
 				61341A59197AD4C80088AC9D /* ProjCG */,
 				61341A58197AD4C80088AC9D /* Products */,
 			);
@@ -60,10 +89,40 @@
 		61341A59197AD4C80088AC9D /* ProjCG */ = {
 			isa = PBXGroup;
 			children = (
+				61341A6E197AEBB70088AC9D /* Helpers */,
+				61341A6A197AEB460088AC9D /* Model */,
 				61341A5A197AD4C80088AC9D /* main.cpp */,
+				61341A67197AE6270088AC9D /* GameController.cpp */,
+				61341A68197AE6270088AC9D /* GameController.h */,
 				61341A5C197AD4C80088AC9D /* ProjCG.1 */,
 			);
 			path = ProjCG;
+			sourceTree = "<group>";
+		};
+		61341A6A197AEB460088AC9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61341A6B197AEB580088AC9D /* Obstacle.cpp */,
+				61341A6C197AEB580088AC9D /* Obstacle.h */,
+				61341A75197B47F90088AC9D /* Movable.cpp */,
+				61341A76197B47F90088AC9D /* Movable.h */,
+				61341A78197B48060088AC9D /* Drawable.cpp */,
+				61341A79197B48060088AC9D /* Drawable.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		61341A6E197AEBB70088AC9D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				61341A72197AEBDD0088AC9D /* Coord.cpp */,
+				61341A73197AEBDD0088AC9D /* Coord.h */,
+				61341A7B197B48C70088AC9D /* Frame.cpp */,
+				61341A7C197B48C70088AC9D /* Frame.h */,
+				61341A7E197B49110088AC9D /* Size.cpp */,
+				61341A7F197B49110088AC9D /* Size.h */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +177,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				61341A5B197AD4C80088AC9D /* main.cpp in Sources */,
+				61341A69197AE6270088AC9D /* GameController.cpp in Sources */,
+				61341A74197AEBDD0088AC9D /* Coord.cpp in Sources */,
+				61341A7A197B48060088AC9D /* Drawable.cpp in Sources */,
+				61341A80197B49110088AC9D /* Size.cpp in Sources */,
+				61341A7D197B48C70088AC9D /* Frame.cpp in Sources */,
+				61341A6D197AEB580088AC9D /* Obstacle.cpp in Sources */,
+				61341A77197B47F90088AC9D /* Movable.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
